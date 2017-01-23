@@ -4,7 +4,8 @@
 
 int main()
 {
-  String a;
+  String a = String ("bonjour");
+  std::cout << a.c_str() << std::endl;
 
   return 0;
 }
